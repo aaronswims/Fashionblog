@@ -1,12 +1,15 @@
 body{
-
-
-
+	color: #666666;
+	background-color: #ffffff;
+	font-family: Georgia, Times, serif;
+	line-height: 1.4em;
+	margin: 0px;
 }
 
 .container{
-
-
+	width: 80%;
+	margin: auto 10% auto 10%;
+	background-color: #d7e7e6;
 
 }
 
@@ -36,7 +39,25 @@ body{
 
 
 /*HEADER*/
+/*list spacing*/
+nav ul{
+	margin: 0%;
+	padding: 5px 0px 5px 30px;
+}
 
+/*place list on one line. adds space between them*/
+nav li{
+	display: inline;
+	margin-right: 20px;
+}
+/*standard link color*/
+nav li a{
+color: #008981;
+}
+/*hover link color*/
+nav li a:hover, nav li a.current{
+	color: #000000;
+}
 /*SECTION*/
 
 /*FOOTER*/
